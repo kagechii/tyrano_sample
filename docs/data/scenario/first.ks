@@ -1,45 +1,40 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="ラスボス"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「ラスボス」[l][r]
 
-メロスは激怒した。[l][r]
+「よくきた勇者よ。わしが王の中の王りゅうおうだ。」[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+「もしわしの味方になれば世界の半分をやろう」[l][r]
 
-(中略)[l][r]
+「どうだ？わしの味方になるか？」[l][r]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
-
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+[link target=*tag_yes] →はい [endlink][r]
+[link target=*tag_no] →いいえ [endlink][r]
 [s]
 
-*tag_sleep
+*tag_yes
 
 [cm]
 
-[bg storage=sleep.jpg time=500]
-
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+「では世界の半分、闇の世界を与えよう！」[l][r]
+「わあっはっはっはっは」[r]
 
 【 BAD END 】[l][cm]
 
 [jump target=*start]
 
-*tag_run
+*tag_no
 
-[bg storage=run.jpg time=500]
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+「ではどうしてもこのわしを倒すというのだな！」[l][r]
+「愚か者め！思い知るがよい！」[r]
+そして最終決戦が始まる。
 
 【 GOOD END 】[l][cm]
 
